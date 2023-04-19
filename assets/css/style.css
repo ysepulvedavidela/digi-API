@@ -1,9 +1,5 @@
-.logo {
-    max-width: 6em;
-}
-
 .main-content {
-    background-color: aliceblue;
+    background-color: white;
 }
 
 body {
@@ -23,7 +19,6 @@ h1, label {
 }
 
 .backgroundBody{
-    border: solid 10px black;
     font-family: "Courier New", monospace;
 }
 
