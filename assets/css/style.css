@@ -1,1 +1,53 @@
+.logo {
+    max-width: 6em;
+}
 
+.main-content {
+    background-color: aliceblue;
+}
+
+body {
+    font-family: "Courier New", monospace;
+    padding: 1rem;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1, label {
+    font-weight: bold;
+}
+
+.text-center{
+    font-weight: bold;
+}
+
+.backgroundBody{
+    border: solid 10px black;
+    font-family: "Courier New", monospace;
+}
+
+i, span {
+    width: 1rem;
+    height: 1rem;
+    color:black;
+}
+
+@media screen and (min-width: 769px) {
+    .backgroundBody {
+        background: url("/assets/images/fondo.png");
+        background-position: 60% 40%;
+    }
+}
+@media screen and (min-width: 441px) and (max-width: 768px) {
+    .backgroundBody {
+        background: url("/assets/images/fondo.png");
+        background-position: 75% 20%;
+    }
+}
+@media screen and (max-width: 440px) {
+    .backgroundBody {
+        background: url("/assets/images/fondo.png");
+        background-position: 80% 35%;
+    }
+}
